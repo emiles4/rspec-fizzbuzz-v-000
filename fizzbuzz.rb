@@ -4,22 +4,15 @@ require_relative './spec_helper.rb'
 require_relative '../fizzbuzz.rb'
 ruby
 
-def fizz(int)
+def fizzbuzz(int)
     if int % 3 == 0 # if the number int is divisible by 3
       "Fizz" # Go fizz
+      elsif int % 5 == 0
+      "Buzz"
+    elsif int % 5 and % 3 == 0
+      "Fizzbuzz"
+    else
+      "nil"
     end
 
-def buzz(int)
-    if int % 5 == 0 # if the number int is divisible by 3
-      "Buzz" # Go fizz
-    end
-
-def buzz(int)
-    if int % 5 == 0# if the number int is divisible by 3
-      "Fizzbuzz" # Go fizz
-    end
-
-def buzz(int)
-    if int % 5 == 0# if the number int is divisible by 3
-      "Fizzbuzz" # Go fizz
-    end
+d
