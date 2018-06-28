@@ -11,6 +11,6 @@ def fizzbuzz(int)
     elsif int % 15 == 0 
       "FizzBuzz"
       else int
-      "nil"
+      nil
     end
   end
